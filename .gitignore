@@ -1,0 +1,26 @@
+# Audio assets are NOT committed (licensing + repo size).
+# Drop reference tracks under docs/validation/refs/<category>/ locally only.
+*.wav
+*.flac
+*.aif
+*.aiff
+*.mp3
+*.ogg
+*.m4a
+
+# REAPER bounce/render outputs and per-session caches.
+docs/validation/reaper/renders/
+*.reapeaks
+*.repeaks
+*.RPP-bak
+
+# OS / editor noise.
+Thumbs.db
+.DS_Store
+*.swp
+
+# Build artifacts (when implementation begins).
+build/
+out/
+dist/
+*.vst3

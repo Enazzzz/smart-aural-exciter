@@ -1,0 +1,17 @@
+# Reference audio corpus index
+#
+# Format (whitespace-separated):
+#   slot  category    filename                    sample_rate  description
+#
+# Audio files themselves are NOT committed (licensing). Drop matching files
+# into the same subfolders as listed below, then update / replace this index
+# as the corpus evolves. See docs/validation/04-validation-suite.md.
+
+# --- required minimum set ---
+E101  electronic  aphex_excerpt.wav         48000  Aphex-style dense detail
+E201  electronic  modern_tight_master.wav   48000  Loud broad-spectrum
+E301  electronic  sparse_ambient.wav        48000  Long tails, low level
+R101  rock        modern_drum_forward.wav   48000  Cymbal-rich modern rock
+R201  rock        vintage_dynamic.wav       44100  Natural drums, dynamic
+V101  vocal       vocal_forward.wav         48000  Sibilant-prone lead vocal
+S101  stress      bright_harsh_master.wav   48000  Worst-case bright master
