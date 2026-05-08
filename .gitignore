@@ -19,8 +19,9 @@ Thumbs.db
 .DS_Store
 *.swp
 
-# Build artifacts (when implementation begins).
-build/
-out/
-dist/
+# Build artifacts. Anchor `build/` to the repo root so it doesn't also match
+# `tools/build/` (helper scripts) or `docs/build/` (build docs).
+/build/
+/out/
+/dist/
 *.vst3
